@@ -41,7 +41,7 @@
 
     ];
 
-    var _FrasesGerada = 'Frases Motivacionais para ter 40cm de Braço';//o texto depois da imagem da logo, para chamar a função
+    var _FrasesGerada = 'Frases para Alcançar (ou não) os 40cm de Braço';//o texto depois da imagem da logo, para chamar a função
 
     void _gerarFrase(){//função de gerar a frase aleatória
       //número sorteado irá pegar aleatóriamente de 0,1,2,3,4 das frases do array
@@ -61,7 +61,7 @@
       return Scaffold(
         backgroundColor: const Color(0xFF1a303e),
         appBar: AppBar(
-          title: const Text('Frases para Academia'),
+          title: const Text('Academia Bumbum-Durinho Frases'),
           backgroundColor: Colors.black45, //cor do appbar
         ),
         body: Center(//centralizar o body
